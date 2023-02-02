@@ -110,7 +110,7 @@ export const getTenths = (digit: number) => {
       return "thirty";
     }
     case 4: {
-      return "fourty";
+      return "forty";
     }
     case 5: {
       return "fifty";
@@ -166,6 +166,4 @@ export const getHundreds = (digit: number) => {
   }
 };
 
-export const getThousands = (digit: number) => {
-
-};
+export const getThousands = (digit: number) => {};

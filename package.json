@@ -12,10 +12,10 @@
   "devDependencies": {},
   "scripts": {
     "build": "tsc",
-    "make-executable": "chmod u+x ./bin/index.js",
+    "make-executable": "chmod u+x ./bin/index.js tests.sh",
     "start": "./bin/index.js",
     "dev": "npx ts-node ./src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./tests.sh"
   },
   "author": "Shawn Renee Casaus",
   "license": "ISC"
